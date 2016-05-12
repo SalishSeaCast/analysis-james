@@ -7,7 +7,17 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* ##[mesozoo_alpha_sensitivity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/mesozoo_alpha_sensitivity.ipynb)  
+    
+* ##[batch_namelist_change_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs.ipynb)  
+    
+* ##[5x5xarray.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/5x5xarray.ipynb)  
+    
+* ##[SMELTParamGradient.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/SMELTParamGradient.ipynb)  
+    
 * ##[gyre_analysis.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/gyre_analysis.ipynb)  
+    
+* ##[xarrayPractice.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/xarrayPractice.ipynb)  
     
 * ##[test.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/test.ipynb)  
     
@@ -18,7 +28,11 @@ Descriptions under the links below are from the first cell of the notebooks
     Modified version of this script:  
     http://stackoverflow.com/questions/6697259/interactive-matplotlib-plot-with-two-sliders  
 
+* ##[SmeltResultDif.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/SmeltResultDif.ipynb)  
+    
 * ##[initial_5x5_analysis.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/initial_5x5_analysis.ipynb)  
+    
+* ##[batch_namelist_change_runs-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs-Copy1.ipynb)  
     
 
 ##License
