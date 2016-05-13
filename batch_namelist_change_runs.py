@@ -5,9 +5,9 @@ import os
 from copy import deepcopy
 
 
-namelist_changes = [{'nampismezo': {'zz_rate_mesozoo_alpha': 0}},
-                    {'nampismezo': {'zz_rate_mesozoo_alpha': 0.5}},
-                    {'nampismezo': {'zz_rate_mesozoo_alpha': 1}}]
+namelist_changes = [{'nampismezo': {'zz_rate_mesozoo_alpha': 0.8}},
+                    {'nampismezo': {'zz_rate_mesozoo_alpha': 0.99}},
+                    {'nampismezo': {'zz_rate_mesozoo_alpha': 0.9}}]
 
 reference_namelist_file = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/namelists/namelist_pisces_cfg_5x5_NewIC'
 
@@ -24,9 +24,6 @@ reference_run_desc = yaml.load(stream)
 
 if not os.path.exists(modified_namelist_dir):
     os.makedirs(modified_namelist_dir)
-
-
-reference_nml = f90nml.read(reference_namelist_file)
 
 for patch in namelist_changes:
     mod_run_desc = deepcopy(reference_run_desc)
