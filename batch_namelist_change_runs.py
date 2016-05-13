@@ -5,19 +5,19 @@ import os
 from copy import deepcopy
 
 
-namelist_changes = [{'nampismezo': {'zz_rate_mesozoo_alpha': 0.8}},
-                    {'nampismezo': {'zz_rate_mesozoo_alpha': 0.99}},
-                    {'nampismezo': {'zz_rate_mesozoo_alpha': 0.9}}]
+namelist_changes = [{'nampismezo': {'zz_rate_mesozoo_alpha': 0}},
+                    {'nampismezo': {'zz_rate_mesozoo_alpha': 0.5}},
+                    {'nampismezo': {'zz_rate_mesozoo_alpha': 1}}]
 
 reference_namelist_file = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/namelists/namelist_pisces_cfg_5x5_NewIC'
 
-modified_namelist_dir = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/namelists_alpha/'
+modified_namelist_dir = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/namelists_alpha_30_day/'
 
 reference_yaml = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/SMELT5x5test.yaml'
 
 iodef_file ='/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/iofiles/iodef_bio_1hr.xml'
 
-results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/mesozoo_alpha_changes/'
+results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/mesozoo_alpha_changes_30_day/'
 
 stream = open(reference_yaml, 'r')
 reference_run_desc = yaml.load(stream)
