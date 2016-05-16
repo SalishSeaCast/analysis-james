@@ -17,7 +17,7 @@ reference_yaml = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/SMELT5x5test
 
 iodef_file ='/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/iofiles/iodef_bio_1hr.xml'
 
-results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/mesozoo_alpha_changes_30_day/'
+results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/mesozoo_alpha_changes_30_day_2/'
 
 stream = open(reference_yaml, 'r')
 reference_run_desc = yaml.load(stream)
