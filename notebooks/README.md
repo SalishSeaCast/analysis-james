@@ -9,6 +9,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[mesozoo_alpha_sensitivity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/mesozoo_alpha_sensitivity.ipynb)  
     
+    **Comparison of 5x5 simulation results for alpha = 0, 0.5, 1 over 30 day time period.**  
+
 * ##[batch_namelist_change_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs.ipynb)  
     
 * ##[Untitled.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled.ipynb)  
@@ -37,6 +39,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[batch_namelist_change_runs-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs-Copy1.ipynb)  
     
 * ##[Untitled1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled1.ipynb)  
+    
+* ##[find_closest_model_point.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/find_closest_model_point.ipynb)  
     
 
 ##License
