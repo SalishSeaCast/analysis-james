@@ -38,6 +38,8 @@ Descriptions under the links below are from the first cell of the notebooks
     Modified version of this script:  
     http://stackoverflow.com/questions/6697259/interactive-matplotlib-plot-with-two-sliders  
 
+* ##[DON_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/DON_remin.ipynb)  
+    
 * ##[SmeltResultDif.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/SmeltResultDif.ipynb)  
     
 * ##[NH_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/NH_remin.ipynb)  
