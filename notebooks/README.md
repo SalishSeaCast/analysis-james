@@ -21,6 +21,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[gyre_analysis.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/gyre_analysis.ipynb)  
     
+* ##[IC_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/IC_comparison.ipynb)  
+    
 * ##[xarrayPractice.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/xarrayPractice.ipynb)  
     
 * ##[test.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/test.ipynb)  
@@ -39,6 +41,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[batch_namelist_change_runs-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs-Copy1.ipynb)  
     
 * ##[Untitled1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled1.ipynb)  
+    
+* ##[batch_namelist_change_runs-Copy2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs-Copy2.ipynb)  
     
 * ##[find_closest_model_point.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/find_closest_model_point.ipynb)  
     
