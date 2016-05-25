@@ -23,6 +23,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[IC_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/IC_comparison.ipynb)  
     
+    This notebook compares the output of four biological simulations ran on a 5x5 grid.  
+      
+    The initial nutrient and plankton ditributions are different for each of these simulations but everything else is the same.  
+
 * ##[xarrayPractice.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/xarrayPractice.ipynb)  
     
 * ##[test.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/test.ipynb)  
@@ -35,6 +39,8 @@ Descriptions under the links below are from the first cell of the notebooks
     http://stackoverflow.com/questions/6697259/interactive-matplotlib-plot-with-two-sliders  
 
 * ##[SmeltResultDif.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/SmeltResultDif.ipynb)  
+    
+* ##[NH_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/NH_remin.ipynb)  
     
 * ##[initial_5x5_analysis.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/initial_5x5_analysis.ipynb)  
     
