@@ -17,6 +17,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[Untitled.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled.ipynb)  
     
+* ##[PON_sink_param.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/PON_sink_param.ipynb)  
+    
 * ##[5x5xarray.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/5x5xarray.ipynb)  
     
 * ##[SMELTParamGradient.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/SMELTParamGradient.ipynb)  
@@ -24,6 +26,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[total_nitrogen.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/total_nitrogen.ipynb)  
     
 * ##[gyre_analysis.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/gyre_analysis.ipynb)  
+    
+* ##[p_micro_min_sink_param.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/p_micro_min_sink_param.ipynb)  
     
 * ##[IC_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/IC_comparison.ipynb)  
     
@@ -46,7 +50,11 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[SmeltResultDif.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/SmeltResultDif.ipynb)  
     
+* ##[Untitled2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled2.ipynb)  
+    
 * ##[NH_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/NH_remin.ipynb)  
+    
+* ##[p_micro_max_sink_param.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/p_micro_max_sink_param.ipynb)  
     
 * ##[initial_5x5_analysis.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/initial_5x5_analysis.ipynb)  
     
@@ -57,6 +65,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[batch_namelist_change_runs-Copy2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs-Copy2.ipynb)  
     
 * ##[find_closest_model_point.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/find_closest_model_point.ipynb)  
+    
+* ##[p_micro_min_sink_param-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/p_micro_min_sink_param-Copy1.ipynb)  
     
 * ##[PON_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/PON_remin.ipynb)  
     
