@@ -7,13 +7,13 @@ The links below are to static renderings of the notebooks via
 Descriptions under the links below are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[nampissink_zz_w_sink_d_pon.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/nampissink_june_8_analysis/nampissink_zz_w_sink_d_pon.ipynb)  
+* ##[nampissink_zz_w_sink_d_pon.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nampissink_june_8_analysis/nampissink_zz_w_sink_d_pon.ipynb)  
     
-* ##[nampissink_zz_w_sink_d_bsi.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/nampissink_june_8_analysis/nampissink_zz_w_sink_d_bsi.ipynb)  
+* ##[nampissink_zz_w_sink_d_bsi.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nampissink_june_8_analysis/nampissink_zz_w_sink_d_bsi.ipynb)  
     
-* ##[nampissink_zz_w_sink_pmicro_min.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/nampissink_june_8_analysis/nampissink_zz_w_sink_pmicro_min.ipynb)  
+* ##[nampissink_zz_w_sink_pmicro_min.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nampissink_june_8_analysis/nampissink_zz_w_sink_pmicro_min.ipynb)  
     
-* ##[nampissink_zz_w_sink_pmicro_max.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/nampissink_june_8_analysis/nampissink_zz_w_sink_pmicro_max.ipynb)  
+* ##[nampissink_zz_w_sink_pmicro_max.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nampissink_june_8_analysis/nampissink_zz_w_sink_pmicro_max.ipynb)  
     
 
 ##License

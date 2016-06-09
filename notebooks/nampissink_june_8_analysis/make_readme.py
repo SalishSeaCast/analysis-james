@@ -24,7 +24,7 @@ import re
 
 NBVIEWER = 'http://nbviewer.jupyter.org/urls'
 REPO = 'bitbucket.org/salishsea/analysis-james/raw/tip'
-REPO_DIR = 'nampissink_june_8_analysis'
+REPO_DIR = 'notebooks/nampissink_june_8_analysis'
 TITLE_PATTERN = re.compile('#{1,6} ?')
 
 
