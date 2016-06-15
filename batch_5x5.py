@@ -5,13 +5,12 @@ import os
 from copy import deepcopy
 import time
 import psutil
-import generate_analysis_notebooks as gen_ipynb
 
 
 def wait_until_cpu_avail():
     cpu_percent = psutil.cpu_percent()
     print(cpu_percent)
-    while(cpu_percent > 44):
+    while(cpu_percent > 47):
         print('wait until cpu load is lower')
         print(cpu_percent)
         time.sleep(10)
@@ -23,13 +22,7 @@ temp_namelist_dir = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/temp_name
 
 reference_yaml = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/SMELT5x5test.yaml'
 
-iodef_file ='/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/iofiles/iodef_bio_1hr.xml'
-
-results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/nampisopt_test/'
-
-analysis_dir = '/ocean/jpetrie/MEOPAR/analysis-james/notebooks/nampisopt_test/'
-
-reference_ipynb = '/ocean/jpetrie/MEOPAR/analysis-james/notebooks/parameter_analysis_template.ipynb'
+results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/nampisopt_june_15/'
 
 reference_bio_params = f90nml.read(reference_namelist_file)
 
@@ -37,10 +30,10 @@ reference_run_desc = yaml.load(open(reference_yaml, 'r'))
 
 section_name = 'nampisopt'
 namelist_changes = []
-scale_vals = [0.5, 2]  # [0.1, 0.5, 0.9, 1.1, 2, 10]
+scale_vals = [0.1, 0.5, 0.9, 1.1, 2, 10]
 for param_name in reference_bio_params[section_name]:
     val = reference_bio_params[section_name][param_name]
-    if val != 0:
+    if val != 0 and "zz_frac_waste" not in param_name and param_name == 'zzn2chl':
         for scale_factor in scale_vals:
             namelist_changes.append({section_name: {param_name: val*scale_factor}})
 
@@ -65,5 +58,3 @@ for patch in namelist_changes:
     else:
         print("Result already exists: " + results_dir + run_identifier)
     os.remove(modified_nml_file)
-
-gen_ipynb.create_and_run_notebooks(analysis_dir, results_dir, reference_ipynb)
