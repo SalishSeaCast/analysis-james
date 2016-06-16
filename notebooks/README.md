@@ -11,6 +11,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **Comparison of 5x5 simulation results for alpha = 0, 0.5, 1 over 30 day time period.**  
 
+* ##[parameter_analysis_template.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/parameter_analysis_template.ipynb)  
+    
 * ##[batch_namelist_change_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs.ipynb)  
     
 * ##[NH_remin_param_sweep.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/NH_remin_param_sweep.ipynb)  
@@ -25,9 +27,13 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[total_nitrogen.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/total_nitrogen.ipynb)  
     
+* ##[Untitled5.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled5.ipynb)  
+    
 * ##[gyre_analysis.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/gyre_analysis.ipynb)  
     
 * ##[p_micro_min_sink_param.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/p_micro_min_sink_param.ipynb)  
+    
+* ##[nampisprod_zz_rate_r_diat.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nampisprod_zz_rate_r_diat.ipynb)  
     
 * ##[IC_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/IC_comparison.ipynb)  
     
@@ -37,7 +43,7 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[xarrayPractice.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/xarrayPractice.ipynb)  
     
-* ##[test.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/test.ipynb)  
+* ##[thalweg_testing.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/thalweg_testing.ipynb)  
     
 * ##[HeatmapDepthTimeSliders.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/HeatmapDepthTimeSliders.ipynb)  
     
@@ -48,6 +54,10 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[DON_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/DON_remin.ipynb)  
     
+* ##[Untitled3.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled3.ipynb)  
+    
+    **Link to [Notebook 2](NH_remin.ipynb)**  
+
 * ##[SmeltResultDif.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/SmeltResultDif.ipynb)  
     
 * ##[Untitled2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled2.ipynb)  
@@ -64,11 +74,17 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[batch_namelist_change_runs-Copy2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs-Copy2.ipynb)  
     
+* ##[Untitled4.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled4.ipynb)  
+    
 * ##[find_closest_model_point.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/find_closest_model_point.ipynb)  
+    
+* ##[metric_gradient.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/metric_gradient.ipynb)  
     
 * ##[p_micro_min_sink_param-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/p_micro_min_sink_param-Copy1.ipynb)  
     
 * ##[PON_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/PON_remin.ipynb)  
+    
+* ##[Untitled6.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled6.ipynb)  
     
 
 ##License
