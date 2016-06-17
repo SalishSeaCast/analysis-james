@@ -6,7 +6,6 @@ from copy import deepcopy
 import time
 import psutil
 
-
 def wait_until_cpu_avail():
     cpu_percent = psutil.cpu_percent()
     print(cpu_percent)
@@ -22,13 +21,13 @@ temp_namelist_dir = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/temp_name
 
 reference_yaml = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/SMELT5x5test.yaml'
 
-results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/nampisprod_june_16/'
+results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/nampismezo_june_17/'
 
 reference_bio_params = f90nml.read(reference_namelist_file)
 
 reference_run_desc = yaml.load(open(reference_yaml, 'r'))
 
-section_name = 'nampisprod'
+section_name = 'nampismezo'
 namelist_changes = []
 scale_vals = [0.1, 0.5, 0.9, 1.1, 2, 10]
 for param_name in reference_bio_params[section_name]:

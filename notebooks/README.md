@@ -72,6 +72,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[Untitled1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled1.ipynb)  
     
+* ##[parameter_analysis_template-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/parameter_analysis_template-Copy1.ipynb)  
+    
 * ##[batch_namelist_change_runs-Copy2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs-Copy2.ipynb)  
     
 * ##[Untitled4.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled4.ipynb)  
@@ -83,6 +85,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[p_micro_min_sink_param-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/p_micro_min_sink_param-Copy1.ipynb)  
     
 * ##[PON_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/PON_remin.ipynb)  
+    
+* ##[parameter_analysis_template-Copy2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/parameter_analysis_template-Copy2.ipynb)  
     
 * ##[Untitled6.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled6.ipynb)  
     
