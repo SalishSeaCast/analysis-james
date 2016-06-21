@@ -9,7 +9,7 @@ import psutil
 def wait_until_cpu_avail():
     cpu_percent = psutil.cpu_percent()
     print(cpu_percent)
-    while(cpu_percent > 42):
+    while(cpu_percent > 46):
         print('wait until cpu load is lower')
         print(cpu_percent)
         time.sleep(10)
@@ -21,7 +21,7 @@ temp_namelist_dir = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/temp_name
 
 reference_yaml = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/SMELT5x5test.yaml'
 
-results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/nampismezo_june_17/'
+results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/nampismezo_june_20/'
 
 reference_bio_params = f90nml.read(reference_namelist_file)
 
@@ -33,8 +33,12 @@ scale_vals = [0.1, 0.5, 0.9, 1.1, 2, 10]
 for param_name in reference_bio_params[section_name]:
     val = reference_bio_params[section_name][param_name]
     if val != 0 and "zz_frac_waste" not in param_name:
-        for scale_factor in scale_vals:
-            namelist_changes.append({section_name: {param_name: val*scale_factor}})
+        if type(val) is list:
+            for scale_factor in scale_vals:
+                namelist_changes.append({section_name: {param_name: [val[0]*scale_factor] + val[1:]}})
+        else:
+            for scale_factor in scale_vals:
+                namelist_changes.append({section_name: {param_name: val*scale_factor}})
 
 for patch in namelist_changes:
     wait_until_cpu_avail()
@@ -45,7 +49,10 @@ for patch in namelist_changes:
         for param_name in patch[section_name]:
             val = patch[section_name][param_name]
             mod_bio_params[section_name][param_name] = val
-            run_identifier = section_name + "_" + param_name + "_" + str(val)
+            if type(val) is list:
+                run_identifier = section_name + "_" + param_name + "_" + str(val[0])
+            else:
+                run_identifier = section_name + "_" + param_name + "_" + str(val)
     modified_nml_file = temp_namelist_dir + run_identifier
     mod_bio_params.write(modified_nml_file)
 
