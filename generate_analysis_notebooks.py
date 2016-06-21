@@ -32,10 +32,9 @@ def create_and_run_notebooks(analysis_dir, result_dir, reference_ipynb):
 
     var_names = set()
     for file_name in listdir(result_dir):
-        if not file_name.startswith('nampiszoo_zz_frac_waste'):
-            last_underscore = file_name.rfind("_")
-            var_name = file_name[:last_underscore]
-            var_names.add(var_name)
+        last_underscore = file_name.rfind("_")
+        var_name = file_name[:last_underscore]
+        var_names.add(var_name)
 
     for var_name in var_names:
         print(var_name)
