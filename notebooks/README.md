@@ -82,6 +82,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[metric_gradient.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/metric_gradient.ipynb)  
     
+* ##[metric_gradient_multiple_seasons.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/metric_gradient_multiple_seasons.ipynb)  
+    
 * ##[p_micro_min_sink_param-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/p_micro_min_sink_param-Copy1.ipynb)  
     
 * ##[PON_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/PON_remin.ipynb)  
