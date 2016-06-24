@@ -22,15 +22,15 @@ temp_namelist_dir = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/temp_name
 
 reference_yaml = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/SMELT5x5test.yaml'
 
-results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/all_params_AprIC_june_22'
+results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/nampisopt_june_14'
 
 reference_bio_params = f90nml.read(reference_namelist_file)
 
 reference_run_desc = yaml.load(open(reference_yaml, 'r'))
 
-section_names = list(reference_bio_params.keys())
+section_names = ["nampisopt"]  # list(reference_bio_params.keys())
 namelist_changes = []
-scale_vals = [0.1, 0.5, 0.9, 1.1, 2, 10]
+scale_vals = [0.9, 1.1]  # [0.1, 0.5, 0.9, 1.1, 2, 10]
 for section_name in section_names:
     for param_name in reference_bio_params[section_name]:
         val = reference_bio_params[section_name][param_name]
