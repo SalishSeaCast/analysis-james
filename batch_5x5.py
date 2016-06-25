@@ -22,7 +22,7 @@ temp_namelist_dir = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/temp_name
 
 reference_yaml = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/SMELT5x5test.yaml'
 
-results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/nampisopt_june_14'
+results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/all_params_AprIC_june_22/'
 
 reference_bio_params = f90nml.read(reference_namelist_file)
 
