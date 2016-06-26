@@ -28,7 +28,7 @@ reference_bio_params = f90nml.read(reference_namelist_file)
 
 reference_run_desc = yaml.load(open(reference_yaml, 'r'))
 
-section_names = ["nampisopt"]  # list(reference_bio_params.keys())
+section_names = list(reference_bio_params.keys())
 namelist_changes = []
 scale_vals = [0.9, 1.1]  # [0.1, 0.5, 0.9, 1.1, 2, 10]
 for section_name in section_names:
