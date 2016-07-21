@@ -88,6 +88,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[PON_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/PON_remin.ipynb)  
     
+* ##[chl_plankton_regression.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/chl_plankton_regression.ipynb)  
+    
 * ##[parameter_analysis_template-Copy2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/parameter_analysis_template-Copy2.ipynb)  
     
 * ##[Untitled6.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled6.ipynb)  
