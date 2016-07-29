@@ -70,6 +70,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[batch_namelist_change_runs-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs-Copy1.ipynb)  
     
+* ##[nowcast_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_comparison.ipynb)  
+    
 * ##[Untitled1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled1.ipynb)  
     
 * ##[parameter_analysis_template-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/parameter_analysis_template-Copy1.ipynb)  
