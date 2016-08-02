@@ -41,6 +41,8 @@ Descriptions under the links below are from the first cell of the notebooks
       
     The initial nutrient and plankton ditributions are different for each of these simulations but everything else is the same.  
 
+* ##[nowcast_re-run_diff.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_re-run_diff.ipynb)  
+    
 * ##[xarrayPractice.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/xarrayPractice.ipynb)  
     
 * ##[thalweg_testing.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/thalweg_testing.ipynb)  
