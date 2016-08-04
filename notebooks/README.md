@@ -13,6 +13,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[parameter_analysis_template.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/parameter_analysis_template.ipynb)  
     
+* ##[nowcast_chloro_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_chloro_comparison.ipynb)  
+    
 * ##[batch_namelist_change_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs.ipynb)  
     
 * ##[NH_remin_param_sweep.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/NH_remin_param_sweep.ipynb)  
@@ -24,6 +26,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[5x5xarray.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/5x5xarray.ipynb)  
     
 * ##[SMELTParamGradient.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/SMELTParamGradient.ipynb)  
+    
+* ##[nowcast_nitrate_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_nitrate_comparison.ipynb)  
     
 * ##[total_nitrogen.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/total_nitrogen.ipynb)  
     
@@ -41,6 +45,8 @@ Descriptions under the links below are from the first cell of the notebooks
       
     The initial nutrient and plankton ditributions are different for each of these simulations but everything else is the same.  
 
+* ##[nowcast_diatom_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_diatom_comparison.ipynb)  
+    
 * ##[nowcast_re-run_diff.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_re-run_diff.ipynb)  
     
 * ##[xarrayPractice.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/xarrayPractice.ipynb)  
