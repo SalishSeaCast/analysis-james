@@ -29,6 +29,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[nowcast_nitrate_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_nitrate_comparison.ipynb)  
     
+* ##[Untitled8.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled8.ipynb)  
+    
 * ##[total_nitrogen.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/total_nitrogen.ipynb)  
     
 * ##[Untitled5.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled5.ipynb)  
@@ -60,6 +62,8 @@ Descriptions under the links below are from the first cell of the notebooks
     Modified version of this script:  
     http://stackoverflow.com/questions/6697259/interactive-matplotlib-plot-with-two-sliders  
 
+* ##[Untitled7.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled7.ipynb)  
+    
 * ##[DON_remin.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/DON_remin.ipynb)  
     
 * ##[Untitled3.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled3.ipynb)  
@@ -86,7 +90,11 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[parameter_analysis_template-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/parameter_analysis_template-Copy1.ipynb)  
     
+* ##[iopt_diat_84_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/iopt_diat_84_comparison.ipynb)  
+    
 * ##[batch_namelist_change_runs-Copy2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/batch_namelist_change_runs-Copy2.ipynb)  
+    
+* ##[Untitled8-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled8-Copy1.ipynb)  
     
 * ##[Untitled4.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled4.ipynb)  
     
