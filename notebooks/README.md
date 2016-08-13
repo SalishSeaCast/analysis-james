@@ -35,6 +35,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[Untitled5.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled5.ipynb)  
     
+* ##[iopt_diat_55_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/iopt_diat_55_comparison.ipynb)  
+    
 * ##[gyre_analysis.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/gyre_analysis.ipynb)  
     
 * ##[p_micro_min_sink_param.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/p_micro_min_sink_param.ipynb)  
