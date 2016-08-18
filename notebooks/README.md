@@ -11,6 +11,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     **Comparison of 5x5 simulation results for alpha = 0, 0.5, 1 over 30 day time period.**  
 
+* ##[Untitled9.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled9.ipynb)  
+    
 * ##[parameter_analysis_template.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/parameter_analysis_template.ipynb)  
     
 * ##[nowcast_chloro_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_chloro_comparison.ipynb)  
@@ -25,7 +27,11 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[5x5xarray.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/5x5xarray.ipynb)  
     
+* ##[Untitled10.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled10.ipynb)  
+    
 * ##[SMELTParamGradient.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/SMELTParamGradient.ipynb)  
+    
+* ##[nowcast_nitrate_comparison-Copy1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_nitrate_comparison-Copy1.ipynb)  
     
 * ##[nowcast_nitrate_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_nitrate_comparison.ipynb)  
     
@@ -101,6 +107,8 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[Untitled4.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/Untitled4.ipynb)  
     
 * ##[find_closest_model_point.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/find_closest_model_point.ipynb)  
+    
+* ##[nowcast_ts_comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/nowcast_ts_comparison.ipynb)  
     
 * ##[metric_gradient.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-james/raw/tip/notebooks/metric_gradient.ipynb)  
     
