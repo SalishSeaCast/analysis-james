@@ -7,10 +7,10 @@ import time
 import psutil
 from numbers import Number
 
-def wait_until_cpu_avail():
+def wait_until_cpu_avail(max_usage = 47):
     cpu_percent = psutil.cpu_percent()
     print(cpu_percent)
-    while(cpu_percent > 47):
+    while(cpu_percent > max_usage):
         print('wait until cpu load is lower')
         print(cpu_percent)
         time.sleep(10)
@@ -30,12 +30,15 @@ reference_run_desc = yaml.load(open(reference_yaml, 'r'))
 
 section_names = list(reference_bio_params.keys())
 namelist_changes = []
-scale_vals = [0.9, 1.1]  # [0.1, 0.5, 0.9, 1.1, 2, 10]
+scale_vals = [0.1, 0.5, 0.9, 1.1, 2, 10]
 for section_name in section_names:
     for param_name in reference_bio_params[section_name]:
         val = reference_bio_params[section_name][param_name]
-        if val != 0 and "zz_frac_waste" not in param_name:
+        # Don't change values that are already 0
+        # Also avoid frac_waste params for now because they are coupled
+        if val != 0 and "zz_frac_waste" not in param_name: 
             if type(val) is list:
+                # If it is a list just modify the first value and leave the rest the same
                 for scale_factor in scale_vals:
                     namelist_changes.append({section_name: {param_name: [val[0]*scale_factor] + val[1:]}})
             elif isinstance(val, Number):
@@ -55,13 +58,15 @@ for patch in namelist_changes:
                 run_identifier = section_name + "_" + param_name + "_" + str(val[0])
             else:
                 run_identifier = section_name + "_" + param_name + "_" + str(val)
-    modified_nml_file = temp_namelist_dir + run_identifier
+    modified_nml_file = temp_namelist_dir + "/" + run_identifier
     mod_bio_params.write(modified_nml_file)
 
     mod_run_desc['namelists']['namelist_pisces_cfg'][0] = modified_nml_file
     print(run_identifier)
-    if not os.path.exists(results_dir + run_identifier) or os.listdir(results_dir + run_identifier) == []:
-        salishsea_cmd.api.run_in_subprocess(run_identifier, mod_run_desc, results_dir + run_identifier)
+    
+    # Make sure this result doesn't already exist
+    if not os.path.exists(results_dir + "/" + run_identifier) or os.listdir(results_dir + "/" + run_identifier) == []:
+        salishsea_cmd.api.run_in_subprocess(run_identifier, mod_run_desc, results_dir + "/" + run_identifier)
         time.sleep(5)  # Just to make sure the job has fully started before checking cpu_percent again
     else:
         print("Result already exists: " + results_dir + run_identifier)
