@@ -17,20 +17,21 @@ def wait_until_cpu_avail(max_usage = 47):
         cpu_percent = psutil.cpu_percent()
 
 reference_namelist_file = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/namelists/namelist_pisces_cfg_5x5_NewIC'
-
 temp_namelist_dir = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/temp_namelist/'
-
 reference_yaml = '/data/jpetrie/MEOPAR/SS-run-sets/SS-SMELT/jpetrie/SMELT5x5test.yaml'
-
+#Change this to the directory where results should go
 results_dir = '/data/jpetrie/MEOPAR/SalishSea/results/all_params_AprIC_june_22/'
 
 reference_bio_params = f90nml.read(reference_namelist_file)
-
 reference_run_desc = yaml.load(open(reference_yaml, 'r'))
 
 section_names = list(reference_bio_params.keys())
-namelist_changes = []
+namelist_changes = [] #List of the patches
 scale_vals = [0.1, 0.5, 0.9, 1.1, 2, 10]
+
+# Iterate through parameters, select applicable ones and make a patch
+# with each scale value.
+# Each patch is a python dict specifying changes from the reference namelist
 for section_name in section_names:
     for param_name in reference_bio_params[section_name]:
         val = reference_bio_params[section_name][param_name]
@@ -45,6 +46,8 @@ for section_name in section_names:
                 for scale_factor in scale_vals:
                     namelist_changes.append({section_name: {param_name: val*scale_factor}})
 
+# Run the model for every patch and store results
+# in a descriptive directory
 for patch in namelist_changes:
     wait_until_cpu_avail()
     mod_run_desc = deepcopy(reference_run_desc)
