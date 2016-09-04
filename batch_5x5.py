@@ -1,3 +1,7 @@
+# This script creates a set of changes from the default parameter values
+# and runs the model once for each change set. Model runs are done in parallel
+# and cpu usage is monitored so as not to exceed a preset threshold.
+
 import yaml
 import f90nml
 import salishsea_cmd.api
@@ -7,6 +11,8 @@ import time
 import psutil
 from numbers import Number
 
+# Make sure CPU usage doesn't exceed a threshold.
+# Stays in function until CPU usage drops below value
 def wait_until_cpu_avail(max_usage = 47):
     cpu_percent = psutil.cpu_percent()
     print(cpu_percent)
